@@ -1,0 +1,145 @@
+/*
+    Enzyy_b_
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+/* main kontent sredina*/
+
+.glavni-dio{
+    background-color: #f1f2f6 ;
+    padding: 3% 0;
+
+}
+
+
+.meni{
+    border-bottom: 1px solid grey;
+}
+/* ovdje je dizajn menija*/
+.meni ul{
+    list-style-type: none;
+}
+
+.meni ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.meni ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0984e3;
+}
+
+.meni ul li a:hover{
+    color:red
+}
+
+.col-4{
+    width: 14%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+table tr th {
+ 
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.dugme-prim{
+    background-color:#00b894 ;
+    color: white;
+    padding: 1%;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+.dugme-prim:hover{
+    background-color: #fdcb6e;
+}
+
+.dugme-sec{
+    background-color:#0984e3 ;
+    color: white;
+    padding: 1%;
+    border-radius: 5%;
+    font-weight: bold;
+    margin-right: 1%;
+}
+
+.dugme-sec:hover{
+    background-color: #fdcb6e;
+}
+
+.dugme-thi{
+    background-color:#d63031 ;
+    color: white;
+    padding: 1%;
+    border-radius: 5%;
+    font-weight: bold;
+    margin-right: 1%;
+}
+
+.dugme-thi:hover{
+    background-color: #fdcb6e;
+}
+
+/* ovdje je dizajn footera*/
+.footer{
+    background-color: #a29bfe;
+    color: white;
+    padding: 1%;
+}
+
+/*css za login stranicu*/
+
+.login{
+    background-color:rgb(248, 205, 205);
+    width: 30%;
+    border: 1px solid black;
+    margin: 10% auto;
+    padding: 2%;
+    border-radius: 5%;
+    
+}
+
+.login-body
+{
+    background-color:#2d9dc5;
+
+}
